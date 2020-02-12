@@ -32,10 +32,10 @@ public class Window extends JFrame {
     }
 
     public void initView() {
-        ltitle = new JLabel("2048", JLabel.CENTER);
-        ltitle.setFont(new Font("", Font.BOLD, 50));
+        ltitle = new JLabel("Lucky2048", JLabel.CENTER);
+        ltitle.setFont(new Font("", Font.BOLD, 30));
         ltitle.setForeground(new Color(0x776e65));
-        ltitle.setBounds(0, 0, 120, 60);
+        ltitle.setBounds(0, 0, 180, 60);
 
         lsctip = new JLabel("SCORE", JLabel.CENTER);
         lsctip.setFont(new Font("", Font.BOLD, 16));
@@ -51,7 +51,7 @@ public class Window extends JFrame {
         lscore.setBackground(new Color(0xbbada0));
         lscore.setBounds(290, 30, 100, 25);
 
-        lgatip = new JLabel("按方向键可以控制方块的移动，按ESC键可以重新开始游戏。", JLabel.LEFT);
+        lgatip = new JLabel("↑↓←→方向键控制移动    ESC键重新开始游戏", JLabel.LEFT);
         lgatip.setFont(new Font("Helvetica Neue", Font.ITALIC, 13));
         lgatip.setForeground(new Color(0x776e65));
         lgatip.setBounds(10, 60, 390, 30);
